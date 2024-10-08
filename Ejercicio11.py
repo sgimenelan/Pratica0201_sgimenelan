@@ -1,0 +1,7 @@
+capital = float(input("¿Cuanta es la cantidad que quieres depositar? "))
+año1 = (capital*1.04)
+print ("La cantidad del año 1 es ", round(año1, 2), "€")
+año2 = (año1*1.04)
+print ("La cantidad del año 2 es ", round(año2, 2), "€")
+año3 = (año2*1.04)
+print ("La cantidad del año 3 es ", round(año3, 2), "€")
