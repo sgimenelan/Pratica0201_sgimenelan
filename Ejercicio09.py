@@ -1,7 +1,7 @@
 a = input("¿Con que tipo de interes quieres invertir? (simple o compuesto) ")
 a = a.lower()
-capital = int(input("Cuanto es la capital que quieres invertir "))
-interes = int(input("Cuanto es el interes anual "))
+capital = float(input("Cuanto es la capital que quieres invertir "))
+interes = float(input("Cuanto es el interes anual "))
 interes = (interes / 100)
 años = int(input("¿Cuantos años quieres invertir? "))
 if a == "simple":
