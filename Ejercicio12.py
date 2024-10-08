@@ -1,5 +1,5 @@
 barras = float(input("Dime el numero de barras vendidas que no son del dia "))
 print("Las barras tienen un precio habitual de 3,49€ cada una ")
 descuento = (3.49 * 0.6)
-print("Las barras que no son del diat ienen un precio de", descuento, "cada una")
+print("Las barras que no son del dia tienen un precio de", descuento, "cada una")
 print("La ganancia final es ", (barras * descuento), "€")
